@@ -1,0 +1,5 @@
+Overview
+- https://code.visualstudio.com/docs/whyvscode
+-requared for mac and linux users
+- https://code =.visualstudio.com/
+-optional for windows (follow the wizard, very straight orward, for instllation)

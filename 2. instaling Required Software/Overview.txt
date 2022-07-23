@@ -1,0 +1,5 @@
+Windows
+-C compiler (Cygwin)
+-IDE's (Integrated Development Envilopment)
+--Code::Blocks
+--Visual Studio Code
