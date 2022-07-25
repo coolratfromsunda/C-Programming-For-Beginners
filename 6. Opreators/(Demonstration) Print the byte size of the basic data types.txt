@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    printf("Variales of type char occupy %zd", sizeof(char));
+    printf("Variales of type short occupy %zd", sizeof(short));
+    printf("Variales of type int occupy %zd", sizeof(int));
+    printf("Variales of type long occupy %zd", sizeof(long));
+    printf("Variales of type long long occupy %zd", sizeof(long long));
+    printf("Variales of type float occupy %zd", sizeof(float));
+    printf("Variales of type double occupy %zd", sizeof(char));
+    printf("Variales of type long double occupy %zd", sizeof(char));
+
+    return 0;
+}

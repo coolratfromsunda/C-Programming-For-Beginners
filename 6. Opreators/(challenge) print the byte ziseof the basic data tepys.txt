@@ -1,0 +1,15 @@
+Persyaratan
+- dalam tantangan ini, Anda harus membuat program C yang menampilkan ukuran byte dari tipe data dasar yang didukung dalam tantangan
+- output sangat tergantung pada sistem yang Anda jalankan programnya
+
+- menampilkan ukuran byte dari jenis berikut
+  > ke dalam
+  > char
+  > panjang
+  > panjang panjang
+  > ganda
+  > ganda panjang
+
+  - Anda dapat menggunakan penentu format %zd untuk memformat setiap ukuran
+  - gunakan ukuran operator
+  - uji di lebih dari satu komputer untuk melihat perbedaannya

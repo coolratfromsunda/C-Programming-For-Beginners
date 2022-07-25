@@ -1,0 +1,29 @@
+Overview
+-prioritas operator menentukan pengelompokan istilah dalam ekspresi dan
+ memutuskan bagaimana ekspresi dievaluasi
+ -menentukan urutan evaluasi ketika dua operator berbagi operand
+ -operator tertentu memiliki prioritas lebih tinggi daripada yang lain
+ -misalnya, operator perkalian memiliki prioritas yang lebih tinggi daripada operator penambahan
+x = 7 + 3 *2;
+  > dapat menghasilkan 13 atau 20 tergantung urutan evaluasi masing-masing operator
+  > urutan pelaksanaan berbagai operasi dapat membuat perbedaan, jadi C membutuhkan aturan
+   yang jelas untuk memilih apa yang harus dilakukan terlebih dahulu
+  > Dalam C, x ditetapkan 13, bukan 20 karena operator * memiliki prioritas lebih tinggi dari +
+    >pertama dikalikan dengan 3*2 lalu dijumlahkan menjadi 7
+    >Setiap operator diberi tingkat prioritas
+     > perkalian dan pembagian lebih diutamakan daripada penjumlahan dan pengurangan, jadi dikerjakan terlebih dahulu
+
+ Associativity (keterkaitan)
+ - bagaimana jika dua operator memiliki prioritas yang sama?
+- dan aturan asosiatif diterapkan
+- jika mereka berbagi operan, mereka dieksekusi sesuai dengan urutan kemunculannya dalam pernyataan
+- untuk sebagian besar operator, urutannya dari kiri ke kanan
+
+1==2!=3
+- operator == dan != memiliki prioritas yang sama
+  - Keterkaitan == dan != dari kiri ke kanan
+  - ekspresi di sebelah kiri dieksekusi terlebih dahulu dan bergerak ke arah kanan
+  - ekspresi di atas setara dengan
+
+  ((1==2)!=3)
+  -(1==2) mengeksekusi pertama menghasilkan 0 (0 !=3)mengeksekusi menghasilkan 1 (benar)

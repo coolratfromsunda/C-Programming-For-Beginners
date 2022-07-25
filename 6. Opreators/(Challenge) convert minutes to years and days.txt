@@ -1,0 +1,12 @@
+Persyaratan
+- Dalam tantangan ini Anda harus membuat program c yang mengubah jumlah menit menjadi hari dan tahun
+- program harus meminta pengguna untuk memasukkan jumlah menit melalui terminal
+- program harus menampilkan sebagai output menit dan kemudian setara dalam tahun dan hari
+- program harus membuat variabel untuk disimpan (semuanya harus bertipe double)
+  > menit(int)
+  > menit dalam setahun
+  > tahun
+  > hari
+
+- perlu melakukan perhitungan dan operator aritmatika pengguna
+- Anda harus mencari tahu konversinya
