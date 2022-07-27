@@ -1,0 +1,13 @@
+Requirements
+- in this challenge, you are to creat a C program that calculates your weekly pay.
+- the program should ask the user to enter the number of hours worked iin a week via the keyboard
+- the program should display as output the gross pay, the taxes, and the net pay 
+- the following assumption should be made
+    > basic pay rate = $12.00/hour
+    > overtime (in excess of 40 hours) =times and a half
+    > tax rate
+        -15%  of the first $300
+        -20% of the next $150
+        -25% of the rest
+
+- you wil need to utilize if/ else statement

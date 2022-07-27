@@ -1,0 +1,13 @@
+Oveerview
+- the conditional operator and the if else ststement make it easy to write program that choose between two alternatives 
+- However manty times a program needs to choose one of several alternatives 
+    > you can do this by using if alse if...else 
+    > tedious, prone to errors
+- when the value of a vareble is successively compared against different values use the switch statement
+    > more convenient and efficient
+
+witch syntax
+Switch statement details
+Another switch statement example 
+goto statement
+goto example 

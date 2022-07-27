@@ -1,0 +1,20 @@
+Overview
+- pernyataan di dalam file sumber Anda umumnya dijalankan dari atas ke bawah, sesuai urutan kemunculannya
+- kontrol aliran ststement, bagaimanapun, memecah aliran eksekusi dengan menggunakan pengambilan keputusan, perulangan, dan percabangan, memungkinkan program Anda untuk mengeksekusi blok kode tertentu secara kondisional
+     > Pernyataan pengambilan keputusan (jika-maka, jika-maka-lain, penyihir, goto)
+     > Looping stsement (for, while, do- while)
+     > ststement baraching (istirahat, lanjutkan, kembali)
+
+Decision making-
+ -Struktur mengharuskan pemrogram menentukan satu atau lebih kondisi untuk dievaluasi atau diuji oleh program
+     > jika suatu kondisi benar maka pernyataan atau pernyataan dijalankan
+     > jika kondisi salah maka pernyataan lain dieksekusi
+
+Repeating code
+- mungkin ada situasi, ketika Anda perlu mengeksekusi blok kode kode beberapa kali
+     >pernyataan dieksekusi secara berurutan: Pernyataan pertama dalam suatu fungsi dieksekusi terlebih dahulu, diikuti oleh yang kedua, dan seterusnya
+- Pernyataan loop memungkinkan kita untuk mengeksekusi pernyataan atau sekelompok pernyataan beberapa kali
+- Pernyataan kontrol loop mengubah eksekusi dari urutan normalnya
+     > ketika eksekusi meninggalkan ruang lingkup, semua objek otomatis yang dibuat dalam ruang lingkup tersebut akan dimusnahkan (break and continue)
+- Sebuah loop menjadi infinite loop jika suatu kondisi tidak pernah menjadi salah
+     > Perulangan for biasanya digunakan untuk tujuan ini
