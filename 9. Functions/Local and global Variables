@@ -1,0 +1,25 @@
+Local Variabels
+- variabel defnined inside a function are known as automatic local variabel
+- they are automatically"create"each time the function is called
+- their values are local to the function
+
+Global Variables
+- the opposite of a local variabel
+- global variabel value can be accessed by any function in the the program 
+- a global variabel has the lifetime of the program
+
+Example 
+int myglobal = 0; 
+
+int main ()
+{
+  void myLocalMain = 0;
+return;
+}
+
+void myFunction()
+{
+  int x;
+}
+
+Avoid Using global variables

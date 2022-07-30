@@ -1,0 +1,35 @@
+returng data 
+- in our prior example of multiply two numbers, our multiply function displayed the result of the calculaton at the terminal
+- you might not always want to have tha results of your calculations displayed
+- function can return data using specific syntax
+- should be familiar from previous experience with main function
+- let's take another look at the general form of a function 
+
+return_type Function_name(List of Parameters - separated by commas)
+{
+  //Statements....
+}
+ the Return_type specifies the type of the value returned by the functon
+
+ The return statement
+
+ Returning data 
+
+ invoking a function
+
+invoking a function and assigning data returned
+
+Example
+int multiplyTwoNumbers(int x,int y)
+{
+  int return = x*y;
+
+}
+int main(void)
+{
+  int result = 0;
+  result = multiplyTwoNumbers(10,20);
+
+  printf("result is %d\n, result");
+  return 0;
+}

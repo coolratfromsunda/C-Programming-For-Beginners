@@ -1,0 +1,19 @@
+Character strings
+- C has no special variabel type for string
+  - htis no special variabel type for strings
+  - the atandard library provides an axtensive range o function to handle string
+
+Initializing a string 
+- you can initialize a string variavel when you declare it 
+
+Initializing a string (cont'd)
+
+assigning avalue to a string after initializing
+
+Displaying string
+
+inputting a string
+
+input if two string are equal
+
+Example.....

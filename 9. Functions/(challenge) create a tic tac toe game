@@ -1,0 +1,13 @@
+Requirement
+- Write a program that playss tic-tac-toe
+  -game is played on a 3x3 grid the game is played by two players, who take turn
+
+- you should create an array to represent the board
+  - can be type char and consist of 10 elemnts (do not use zero)
+  - each element represnent a coordinate the board that hte user can selec
+
+- some function that you should probably create
+  - checkForton that you should probably create
+    - checkForWin - checks to see if player has won or the game is a draw
+    - drawboard - resraws the board for each player turn
+    - markBoard - sets the array with a selection and check for an invalid selection

@@ -1,0 +1,11 @@
+consstant string
+- sometimes you need to use a constant in a program
+
+#define
+- the preprocessor lets you define onstants
+#define (cont'd)
+- no such statement can appear anywhere in a program
+
+const
+
+const (cont'd)

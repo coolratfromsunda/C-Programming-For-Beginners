@@ -1,0 +1,30 @@
+Arguments and parameters
+-a parameter is a variabel in a fncntion declaration definition/implementaton
+- when a function is called, the argument are the data you pass inti the function parameters
+- the actual value of a variabel that gets passed to the function
+
+- function parameters are defined within the function header 
+ - 
+
+Argument and parameters (cont'd)
+
+Example
+- when the print() function is called, you always supply one or more value as aargument 
+
+Example 
+3include <stdio.h>
+
+Void multiplyTwoNumbers(int x, int y)
+{
+  int retult = x * y;
+  printf("The product of %d multiplied by %d is: %d\n", X,y, result);
+}
+
+int main(void)
+{
+  multiplyTwoNumbers(10,20);
+  multiplyTwoNumbers(20,30);
+  multiplyTwoNumbers(50,2);
+  
+  return 0;
+}

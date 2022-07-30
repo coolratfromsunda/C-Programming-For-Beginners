@@ -1,0 +1,17 @@
+Strings
+- we have learned alll about the char data type
+
+Strings (cont'd)
+- every time you have displayed a massage using printf() function, you have defined the message as a srting constant 
+
+Null Character
+Null Character Example
+
+
+#include <sstdio.h>
+
+int main(void)
+{
+  printf("The character \0 is used to terminate a string.")
+  return 0;
+}

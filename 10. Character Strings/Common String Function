@@ -1,0 +1,17 @@
+String Functions
+
+Getting the length of a String
+
+Copying Strings
+Copying Strings (cont'd)
+
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char myString[] = "My Neme is Jason"
+    printf(" The length is: %", myString);
+
+    return 0;
+}

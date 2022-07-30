@@ -1,0 +1,17 @@
+Requirements
+- we need to get some praction writing function
+  - better organized code
+  - avoid duplication
+- for this challenge you are write three function in a single program
+- write a function which finds the greatest common divisor of two non-negative integer values and to return and to return the result
+  - god, takes two ints as parameters
+
+- write a function to calculate the absolute value of a number 
+  - should take as a parameter the absolute value of anumber
+  - test this function with ints and floats
+
+- write a function to compute the square root value a number  
+  - if a negative argument is passed then a massage is display and -1.0 should be returned
+  - should use the absoluteValue function as implemented n the above step
+
+- Test! Test! Test!

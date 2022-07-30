@@ -1,0 +1,39 @@
+Defining a function
+- when you create a function, you specify the function header as the first line of the function definition 
+- followed by a starting curly brace {
+- the executetable code in between the starting and ending braces
+- the ending curly brace }
+the block of code between brances following the functio header is the function body.
+
+-
+-
+-
+-
+-
+
+Return_type Functio_name(Parameter - separated by coommas)
+{
+  //Statements...
+}
+
+
+Defining a function (cont'd)
+
+Example
+void printMassage (void)
+{
+  print ("Program is fun.\n")
+}
+
+Defining a function
+- the statement in the function body can be absent, but the braces must be present
+
+Naming functions
+
+Naming functions(cont'd)
+
+Functio prototypes
+
+Functio prototypes (cont'd)
+
+#include & #de
