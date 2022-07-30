@@ -1,0 +1,22 @@
+Requirements
+- this challenge will help you better understand how to use the most common fun common string function in the string library
+
+-write a program that displays a sting in reverse order
+    -should read input from the keyboard
+    -need to usethe strlen string function
+
+    Requirement
+    - write a program that sorts the stings of array using a bubble sort 
+    - need to the strcmp and strcpy functions
+
+    input number of stings :3
+    input string 3:
+    zero
+    one 
+    two
+    expected Output:
+
+    the string appears after sorting
+    one
+    two
+    zero

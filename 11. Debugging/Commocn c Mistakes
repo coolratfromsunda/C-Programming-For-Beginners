@@ -1,0 +1,24 @@
+Common C mistakes
+-misplacing a semicolon
+if (j==100);
+j=0;
+
+-confusing the operator = with the operator ==
+if (a=2)
+printf("your turn.\n");
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-

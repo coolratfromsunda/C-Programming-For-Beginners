@@ -1,0 +1,8 @@
+Converting Strings
+Case conversion example
+
+char text[100];
+char substring[40];
+
+printf(" Enter the string to beserched (less tha %d characters):\n",100);
+scanf("%s", text);

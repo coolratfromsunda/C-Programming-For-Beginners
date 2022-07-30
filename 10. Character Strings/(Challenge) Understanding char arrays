@@ -1,0 +1,19 @@
+Requirement
+- int this challenge. you are going to write a program that tests you aunderstanding of char arrays
+
+- write a function to count the number of characters in a string (length)
+    - cannot use the strien library function 
+    - function should take a characters array as a parameter
+    should return an int (the length)
+
+- write a function to concatenate two character strings
+    - cannot use the strcat library functiion
+    - function should take 3 parameters 
+            - char result []
+            - const char str1[]
+            - const char str2[]
+            - can return void
+
+- write a function that determines if two stirng are equal 
+    - connot use strcmp library function
+    - function should take const char arrays as parameter and return a Boolean of if they are equal and false otherwise
