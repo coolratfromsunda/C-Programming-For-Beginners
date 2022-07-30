@@ -1,0 +1,46 @@
+Ringkasan
+- Funtion adalah unit mandiri dari kode program yang dirancang untuk menyelesaikan tugas tertentu
+- Aturan sintaks menentukan struktur suatu fungsi dan dapat digunakan
+- fungsi dalam C sama dengan subrutin atau prosedur dalam bahasa pemrograman lain
+- beberapa fungsi menyebabkan suatu tindakan terjadi
+- printf() menyebabkan data dicetak di layar Anda
+- beberapa finction menemukan nilai untuk sebuah program untuk digunakan
+- strlen() memberi tahu program berapa panjang string tertentu
+
+
+Advantages keuntungan
+- memungkinkan untuk membagi dan menaklukkan strategi
+- sangat sulit untuk menulis seluruh program sebagai satu fungsi utama yang besar
+- sulit untuk menguji, men-debug, dan memelihara
+
+- dengan membagi dan menaklukkan, tugas dapat dibagi menjadi beberapa subtugas independen
+- mengurangi kompleksitas keseluruhan
+- finction terpisah ditulis untuk setiap subtugas
+- kita dapat membagi lebih lanjut setiap subtugas menjadi subtugas yang lebih kecil, semakin mengurangi kerumitannya
+
+
+Kelebihan (Lanjutan)
+- membantu keterbacaan
+- program diatur dengan lebih baik
+- lebih mudah dibaca dan lebih mudah diubah atau diperbaiki
+
+contoh
+- Anda telah menggunakan fungsi bawaan seperti printf() dan scanf()
+contoh
+- Anda telah menggunakan fungsi bawaan seperti printf() dan scanf()
+example 
+#define SIZE 50
+int main(viod)
+{
+  float list[SIZE];
+
+  readlist(list,SIZE);
+  sort(list, SIZE);
+  average(list, SIZE);
+  retturn 0;
+
+  Implementing functions 
+  main() function
+
+
+}

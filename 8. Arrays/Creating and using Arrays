@@ -1,0 +1,14 @@
+Arrays 
+-itu adalah umum untuk dalam sebuah program untuk menyimpan banyak nilai data dari tipe tertentu
+- dalam progaram olahraga, Anda mungkin ingin menyimpan skor untuk semua game atau skor setiap pemain
+- Anda bisa menulis program yang melakukan ini menggunakan variabel yang berbeda untuk setiap skor
+- jika ada banyak permainan untuk disimpan maka kurus sangat membosankan
+- menggunakan dalam array akan menyelesaikan masalah ini
+- array memungkinkan Anda untuk mengelompokkan nilai bersama di bawah satu nama
+- Anda tidak perlu variabel terpisah untuk setiap data
+- array adalah sejumlah item dat yang semuanya bertipe sama
+
+Accessing an array's elements
+
+array out bounds
+

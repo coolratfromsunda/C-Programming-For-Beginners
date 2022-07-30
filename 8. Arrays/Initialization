@@ -1,0 +1,25 @@
+Menginisialisasi array
+- Anda akan sering menetapkan nilai awal untuk array Anda
+- mendefinisikan nilai awal untuk elemen array membuatnya lebih mudah untuk mendeteksi ketika ada yang salah
+- sama seperti Anda dapat menetapkan nilai awal ke variabel saat dideklarasikan, Anda juga dapat menetapkan nilai awal ke elemen array
+- untuk menginisialisasi nilai array, cukup berikan nilai dalam daftar
+- nilai dalam daftar dipisahkan dengan koma dan daftar diapit oleh sepasang kurung kurawal
+
+int cibters[5]= {0,0,0,0,0};
+
+Intializing an array (con'd)
+
+Designated initializers
+
+Example of traditional initialization
+#define MONTHS 12
+
+int main(void)
+{
+  int day [MONTHS] = {31,28,31,30,31,30,31,31,30,31,30,31}
+  int index;
+
+  for(index=0;index<MONTHS; index++)
+  printf("Month %d has %2d days.\n", index +1, days[index])
+
+return 0;}

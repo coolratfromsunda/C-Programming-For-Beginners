@@ -1,0 +1,27 @@
+Ringkasan
+- jenis array yang telah Anda ketahui sejauh ini adalah array linier ali
+- dimensi tunggal
+- bahasa C memungkinkan array dari setiap domensi untuk didefinisikan
+- dua array dimwnsional adalah yang paling umum
+-
+-
+-
+int matrix[4][5];
+-
+intializing a two dimensional array
+
+int numbers[3][4]= {
+  {10,20,30,40,},
+  {15,25,35,45,},
+  {47,48,49,50}
+
+};
+
+
+Designated initializers
+
+Other dimensions
+
+initializing  an array of more than 2 dimensions
+
+processing element in a n dimensional array

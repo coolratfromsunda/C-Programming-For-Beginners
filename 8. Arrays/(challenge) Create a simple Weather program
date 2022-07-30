@@ -1,0 +1,20 @@
+Requirements
+- in this challenge , you are to creat a C program that uses a two-dimensional array in a weather program
+- this program will find the total rainfall for each year, the average yearly rainfall, and the average 
+rainfall for each month
+- input will be a 2D array with hard-code values for rainfall amounts for the past 5 years
+- the array should have 5 rows and 2 columns
+- rainfall amounts can be floaing point numbers
+
+Example output
+
+hints
+- initialize your 2D array with hard rainfall amounts
+- remember, to iterate through  2D array you will need a nested loop
+- the key to this solution will be to visualize a 2d array and understand how o iterate through one, via 
+a nested loop 
+- as yuo are iterating , you can keep a running total(outer loop iterate by year, inner loop iterate by month)
+to get the total rainfall for all years
+
+- to get the average monthly rainfall, iterate though the 2D array by having the outer loop go through 
+each month and the inner loop go through each year

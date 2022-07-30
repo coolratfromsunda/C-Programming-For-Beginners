@@ -1,0 +1,9 @@
+Requirement
+- in this Challenge, you are going to create a program that will find al tje prime number from 3-100
+- there will be no input to the program
+- the output will be each prime number separate by a space on a single line 
+- you will need to create an array that will store each prime number as it is generated 
+- you can hard-code the firts two ptime number (2 and 3)  in the prime array
+- you should utilize loops to anly find prime number up to 100 and a loop to print out the prime array 
+
+

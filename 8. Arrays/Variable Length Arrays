@@ -1,0 +1,30 @@
+Variabel length array
+- so far, all the sizes of an array have been specified using a number
+- the term variabel invariabel-lenght array does not mean that you can modify the length of the array after you creat it
+- a VLA keeps the same size after creation
+- variabel lenght array allow you to specify the size of an array with a variabel when creating an array
+- C99 introduced variabel -lenght array primarily to allow c to become a better language for numerical computing 
+- VLAS make it easier to convert exixting libraries if FORTRAN numerical calculation routines to C
+
+Valid and invalid declarations of an array 
+
+int n=5;
+int m=8;
+float a1[5];
+float a2[5*2+1];
+float a3[sizeof(int) + 1];
+float a4[-4];
+float a6[2,5];
+float a7[(int)2,5];
+float a8[n];
+float a9[m];
+
+Hints
+- the criteria that be used to identify a prime is that a number is considered prime if it is 
+not eveny divisible by any other previous prime number
+
+- can use the following as an exit condition in the innermost loop
+- p / primes[i]>=orimes[i]
+- a test to ensure that the value of p does not exceed the aquare root of primes[i]
+
+- you program can be more efficient by skipping any checks for even numbers (as they cannot be prime)
