@@ -1,0 +1,13 @@
+Overview
+-it is sometimes very hard to undestand what the compiler is complaining about 
+-need to understend compiler errors in order to fix them
+
+most common compiler ,messages
+-variable undeclared(first use in this function)
+
+-warning:implicit declaration of function
+
+-warning control reaches end of non-viod function
+
+runtimes errors
+-the execution of C program may terminate abruptly(crash) when a run-time error is detected

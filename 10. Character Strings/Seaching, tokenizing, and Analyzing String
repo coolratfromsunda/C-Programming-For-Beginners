@@ -1,0 +1,17 @@
+Overview
+- lest discuss some more string function
+
+
+concept of pointer
+- weare going to discuss in detail, the concept of a ponter in an upcoming section
+
+int Number = 25;
+int*pNUmber = &Number;
+
+pointer (cont'd)
+
+Searching a string for a character
+#strchr()
+searching for a substring
+Tokenizing a stiring
+strtok example

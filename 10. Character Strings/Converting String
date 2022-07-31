@@ -6,3 +6,11 @@ char substring[40];
 
 printf(" Enter the string to beserched (less tha %d characters):\n",100);
 scanf("%s", text);
+
+Converting String to numbers
+
+Example
+double value =0;
+char str[] = "3,5,"
+char
+char
