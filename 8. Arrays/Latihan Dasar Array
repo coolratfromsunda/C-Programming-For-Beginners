@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+
+int main() {
+  char nama[25][25], jk[15], jurusan[20];
+  int d;
+  printf("ABSEN MAHASISWA ITC\n");
+  printf("===================\n");
+  
+  for(int i=0; i<10; i++) {
+   printf("%d.",i+1); scanf("%[^\n]s\n", nama[i]); getchar();
+      scanf("%[^\n]d\n", &d); getchar();
+      scanf("%[^\n]s\n", &jk[i]); getchar();
+      scanf("%[^\n]s\n", &jurusan[i]); getchar();
+  }
+    return 0;
+}
