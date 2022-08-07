@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <string.h>
+
+
+int main()
+{
+    char kata[100];
+  char nama[100][100];
+  double IPK[100];
+  int n;
+  //nama[4]= "ferdi"
+  //  0 1 2 3 4 5
+  // 0
+  // 1
+  // 2
+  // 3
+  // 4 andika
+  // 5
+  //strcpy(nama[4],"ferdi");
+  //printf("%s\n",nama[4]);
+  
+  printf("input N:");
+  scanf("%d", &n); getchar();
+  for(int i=0; i < n; i++){
+      printf("Nama orang ke -%d:",i+1); scanf("%[^\n]", nama[i]); getchar();
+      printf("IPK orang ke -%d:",i+1); scanf("%lf",&IPK[i]); getchar();
+  }
+          printf("\n\nHasil:");
+          for(int i=0; i<n; i++){
+        printf("\nNama orang ke -%d: %s", i+1, nama[i]);
+        printf("\nIPK orang ke -%d: %lf", i+1, IPK[i]);
+      }
+  return 0;
+}
